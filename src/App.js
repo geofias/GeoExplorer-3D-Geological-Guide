@@ -9,7 +9,7 @@ function App() {
   const [siteList, setSiteList] = useState([]);
 
   useEffect(() => {
-    window.CESIUM_BASE_URL = '/Cesium';
+    window.CESIUM_BASE_URL = process.env.PUBLIC_URL + '/Cesium';
 
     const initViewer = async () => {
       const terrain = await createWorldTerrainAsync();
@@ -19,7 +19,7 @@ function App() {
         terrainProvider: terrain,
       });
 
-      const dataSource = await GeoJsonDataSource.load('/data/geological_sites.geojson', {
+      const dataSource = await GeoJsonDataSource.load(process.env.PUBLIC_URL + '/data/geological_sites.geojson', {
        clampToGround: true
       });
 
@@ -37,7 +37,7 @@ function App() {
 
   // Cargar datos del GeoJSON
   useEffect(() => {
-    fetch('/data/geological_sites.geojson')
+    fetch(process.env.PUBLIC_URL + '/data/geological_sites.geojson')
       .then(res => res.json())
       .then(data => {
         const parsedSites = data.features.map(f => ({
