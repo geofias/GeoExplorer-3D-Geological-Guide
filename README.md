@@ -2,6 +2,7 @@
 
 ## 🌐 Project Overview
 GeoExplorer 3D is a web-based interactive application built with **CesiumJS** and **React** that showcases some of the world’s most remarkable geological-natural sites. It serves as both an educational and inspirational platform for geoscientists, travelers, and enthusiasts interested in Earth's geological diversity.
+![Alt Text](geoexplorer/images/thumbnails/geoexplorer_app.png)
 
 ## 🎯 Key Features
 - **3D Globe Visualization** using CesiumJS
