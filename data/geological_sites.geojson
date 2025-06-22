@@ -300,6 +300,106 @@
           -77.53
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barú Volcano",
+        "country": "Panama",
+        "geological_type": "Stratovolcano",
+        "age": "Pleistocene",
+        "rock_type": "Andesite",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<img src=\"assets/barú_volcano.jpg\" alt=\"Barú Volcano\" width=\"300\"/><br/><h3>Barú Volcano</h3><p><strong>Country:</strong> Panama<br/><strong>Geological Type:</strong> Stratovolcano<br/><strong>Age:</strong> Pleistocene<br/><strong>Rock Type:</strong> Andesite</p><p><strong>Best Time to Visit:</strong> Dry season (December to April)<br/><strong>Accessibility:</strong> Accessible by hiking trail or 4x4 vehicle<br/><strong>Activities:</strong> Hiking, wildlife observation, sunrise views</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.543,
+          8.807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iguaçu Falls",
+        "country": "Brazil/Argentina",
+        "geological_type": "Waterfall",
+        "age": "Cenozoic",
+        "rock_type": "Basalt",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<img src=\"assets/iguaçu_falls.jpg\" alt=\"Iguaçu Falls\" width=\"300\"/><br/><h3>Iguaçu Falls</h3><p><strong>Country:</strong> Brazil/Argentina<br/><strong>Geological Type:</strong> Waterfall<br/><strong>Age:</strong> Cenozoic<br/><strong>Rock Type:</strong> Basalt</p><p><strong>Best Time to Visit:</strong> March to May<br/><strong>Accessibility:</strong> Accessible by national parks on both sides<br/><strong>Activities:</strong> Boat tours, sightseeing, hiking</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.444,
+          -25.695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cerro de Pasco Mine",
+        "country": "Peru",
+        "geological_type": "Open-pit mine",
+        "age": "Tertiary",
+        "rock_type": "Lead-Zinc-Silver ore",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<img src=\"assets/cerro_de_pasco_mine.jpg\" alt=\"Cerro de Pasco Mine\" width=\"300\"/><br/><h3>Cerro de Pasco Mine</h3><p><strong>Country:</strong> Peru<br/><strong>Geological Type:</strong> Open-pit mine<br/><strong>Age:</strong> Tertiary<br/><strong>Rock Type:</strong> Lead-Zinc-Silver ore</p><p><strong>Best Time to Visit:</strong> May to September<br/><strong>Accessibility:</strong> Accessible by road<br/><strong>Activities:</strong> Mining tours, geology research</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.24,
+          -10.683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tsingy de Bemaraha",
+        "country": "Madagascar",
+        "geological_type": "Karst limestone forest",
+        "age": "Jurassic",
+        "rock_type": "Limestone",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<img src=\"assets/tsingy_de_bemaraha.jpg\" alt=\"Tsingy de Bemaraha\" width=\"300\"/><br/><h3>Tsingy de Bemaraha</h3><p><strong>Country:</strong> Madagascar<br/><strong>Geological Type:</strong> Karst limestone forest<br/><strong>Age:</strong> Jurassic<br/><strong>Rock Type:</strong> Limestone</p><p><strong>Best Time to Visit:</strong> April to November<br/><strong>Accessibility:</strong> Remote, requires guided tour<br/><strong>Activities:</strong> Hiking, caving, wildlife</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.783,
+          -18.665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Nyiragongo",
+        "country": "Democratic Republic of Congo",
+        "geological_type": "Volcano",
+        "age": "Recent (last erupted 2021)",
+        "rock_type": "Basalt",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<img src=\"assets/mount_nyiragongo.jpg\" alt=\"Mount Nyiragongo\" width=\"300\"/><br/><h3>Mount Nyiragongo</h3><p><strong>Country:</strong> Democratic Republic of Congo<br/><strong>Geological Type:</strong> Volcano<br/><strong>Age:</strong> Recent (last erupted 2021)<br/><strong>Rock Type:</strong> Basalt</p><p><strong>Best Time to Visit:</strong> June to September<br/><strong>Accessibility:</strong> Trekking required from Virunga National Park<br/><strong>Activities:</strong> Volcano trekking, camping</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          -1.52
+        ]
+      }
     }
   ]
 }
